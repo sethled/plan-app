@@ -1,6 +1,6 @@
 # plan-app
 
-Public web presence for **PLAN**, a single-list to-do app for iOS.
+Public web presence for **PLAN**, a productivity companion for iOS.
 
 - Home: https://sethled.github.io/plan-app/
 - Privacy policy: https://sethled.github.io/plan-app/privacy.html
