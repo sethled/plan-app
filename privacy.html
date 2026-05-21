@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — PLAN</title>
+  <meta name="description" content="PLAN's privacy policy. PLAN collects nothing.">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+  <link rel="canonical" href="https://sethled.github.io/plan-app/privacy.html">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --fg: #111;
+      --muted: #555;
+      --rule: #e5e5e5;
+      --accent: #0066cc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0a0a;
+        --fg: #f2f2f2;
+        --muted: #a1a1a1;
+        --rule: #262626;
+        --accent: #4ea1ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 24px 120px;
+    }
+    .back {
+      display: inline-block;
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 32px;
+      text-decoration: none;
+    }
+    .back:hover { color: var(--accent); }
+    h1 {
+      font-size: 40px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin: 0 0 4px;
+      font-weight: 700;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 32px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 40px 0 12px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    p { margin: 0 0 16px; }
+    strong { font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="./">← PLAN</a>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: May 20, 2026</p>
+
+    <p>PLAN is a single-list to-do app for iOS. We do not collect, store, or transmit any personal information.</p>
+
+    <h2>What we collect</h2>
+    <p><strong>Nothing.</strong> PLAN has no user accounts, no analytics, no crash reporting, no advertising, and no third-party SDKs. There is no server to send data to.</p>
+
+    <h2>Where your data lives</h2>
+    <p>All list items, themes, and preferences are stored <strong>locally on your device</strong>, using Apple's SwiftData and UserDefaults frameworks. None of this data leaves your device unless you choose to enable iCloud sync (see below).</p>
+
+    <h2>iCloud</h2>
+    <p>PLAN's data schema is CloudKit-compatible, and iCloud sync is <strong>off by default</strong>. If a future version enables iCloud sync and you opt in, your data will sync between your own Apple devices via your personal iCloud account. We never see it — only you and Apple have access, governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+    <h2>AI features</h2>
+    <p>PLAN includes an opt-in "Auto AI summarize" feature that can shorten long item titles on commit. In the current version, this runs against a <strong>local stub</strong> and sends nothing anywhere. If a future version routes summaries through a remote model, this policy will be updated and you will be notified before any data leaves your device.</p>
+
+    <h2>Children</h2>
+    <p>PLAN is rated for ages 4+. It does not knowingly collect data from anyone, including children.</p>
+
+    <h2>Your rights</h2>
+    <p>Because we collect nothing, there is no data to access, export, or delete on our side. You can delete all PLAN data at any time by uninstalling the app.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="mailto:ledfordlabs@gmail.com">ledfordlabs@gmail.com</a></p>
+
+    <h2>Changes</h2>
+    <p>This policy may be updated alongside future app releases. Material changes will be summarized in the App Store "What's New" notes for the affected version.</p>
+  </main>
+</body>
+</html>
