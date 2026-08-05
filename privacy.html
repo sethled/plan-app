@@ -75,30 +75,33 @@
     <a class="back" href="./">← PLAN</a>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: May 20, 2026</p>
+    <p class="updated">Last updated: August 5, 2026</p>
 
-    <p>PLAN is a productivity companion for iOS. We do not collect, store, or transmit any personal information.</p>
+    <p>PLAN is a minimalist multi-list to-do app for iOS that presents one focused list at a time. We do not collect, store, or transmit any personal information.</p>
 
     <h2>What we collect</h2>
-    <p><strong>Nothing.</strong> PLAN has no user accounts, no analytics, no crash reporting, no advertising, and no third-party SDKs. There is no server to send data to.</p>
+    <p><strong>Nothing.</strong> PLAN has no user accounts, no analytics, no crash reporting, no advertising, and no third-party SDKs. There is no server of ours to send data to.</p>
 
     <h2>Where your data lives</h2>
-    <p>All list items, themes, and preferences are stored <strong>locally on your device</strong>, using Apple's SwiftData and UserDefaults frameworks. None of this data leaves your device unless you choose to enable iCloud sync (see below).</p>
+    <p>All lists, list items, themes, and preferences are stored <strong>on your device</strong>, using Apple's SwiftData and UserDefaults frameworks. When your device is signed into iCloud, they also sync to <strong>your personal iCloud account</strong> so your lists stay current across your devices (see below). Nothing is ever sent to us.</p>
 
     <h2>iCloud</h2>
-    <p>PLAN's data schema is CloudKit-compatible, and iCloud sync is <strong>off by default</strong>. If a future version enables iCloud sync and you opt in, your data will sync between your own Apple devices via your personal iCloud account. We never see it — only you and Apple have access, governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    <p>PLAN syncs your lists and settings between your own Apple devices through <strong>your personal iCloud account</strong> — Apple's CloudKit private database and iCloud key-value storage. This data is stored in <em>your</em> iCloud, counts against <em>your</em> iCloud storage, and is accessible only to you and Apple, governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. We have no server, no access, and no copy. If your device isn't signed into iCloud, PLAN simply works locally — sync stays idle and nothing leaves the device.</p>
+
+    <h2>Widgets</h2>
+    <p>PLAN offers optional Home Screen and Lock Screen widgets that show your next unfinished task and let you mark it done with a tap. The app shares your task data with the widget through a <strong>private, on-device App Group container</strong> — not accessible to other apps. Because widgets render on your Home and Lock Screen, your task titles may be <strong>visible there, including (for Lock Screen widgets) while your device is locked</strong>. The widget collects nothing, sends nothing, and has no network access of its own.</p>
 
     <h2>AI features</h2>
-    <p>PLAN includes an opt-in "Auto AI summarize" feature that can shorten long item titles on commit. In the current version, this runs against a <strong>local stub</strong> and sends nothing anywhere. If a future version routes summaries through a remote model, this policy will be updated and you will be notified before any data leaves your device.</p>
+    <p>The current version of PLAN exposes <strong>no AI features</strong>. The codebase contains a title-summarization capability that is not reachable from the app's interface, and even that runs against a <strong>local stub</strong> that sends nothing anywhere. If a future version enables AI features or routes them through a remote model, this policy will be updated and you will be notified before any data leaves your device.</p>
 
     <h2>Children</h2>
     <p>PLAN is rated for ages 4+. It does not knowingly collect data from anyone, including children.</p>
 
     <h2>Your rights</h2>
-    <p>Because we collect nothing, there is no data to access, export, or delete on our side. You can delete all PLAN data at any time by uninstalling the app.</p>
+    <p>Because we collect nothing, there is no data to access, export, or delete on our side. Uninstalling the app deletes all PLAN data stored on that device. Data synced to your iCloud account remains under your control there — you can remove it in <strong>Settings → [your name] → iCloud → Manage Account Storage</strong>, or by clearing your lists in the app before uninstalling (deletions sync to your other devices).</p>
 
     <h2>Contact</h2>
-    <p>Questions about this policy: <a href="mailto:ledfordlabs@gmail.com">ledfordlabs@gmail.com</a></p>
+    <p>Questions about this policy: <a href="mailto:ledfordlabs@gmail.com"><strong>ledfordlabs@gmail.com</strong></a></p>
 
     <h2>Changes</h2>
     <p>This policy may be updated alongside future app releases. Material changes will be summarized in the App Store "What's New" notes for the affected version.</p>
